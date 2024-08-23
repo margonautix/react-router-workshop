@@ -13,7 +13,8 @@ function App() {
           <Link to="/">Home</Link>
           <Link to="/blue">Blue</Link>
           <Link to="/red">Red</Link>
-        </div>
+        </div>{" "}
+        <br />
         <div id="main-section">
           <Routes>
             <Route path="/blue" element={<Blue />} />
